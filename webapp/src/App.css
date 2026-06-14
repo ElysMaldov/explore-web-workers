@@ -161,6 +161,37 @@
   }
 }
 
+.demo-card {
+  width: min(560px, calc(100% - 40px));
+  padding: 32px;
+  margin: 32px 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--social-bg);
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  margin: 24px 0;
+
+  span {
+    font-weight: 600;
+    color: var(--text-h);
+  }
+
+  input {
+    font: inherit;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text-h);
+  }
+}
+
 .ticks {
   position: relative;
   width: 100%;
